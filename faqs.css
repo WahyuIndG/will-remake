@@ -1,0 +1,50 @@
+body{margin-top:20px;}
+.section_padding_130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.faq_area {
+    position: relative;
+    z-index: 1;
+    background-color: #161515;
+}
+
+h3 {
+    color: rgb(254, 171, 15);
+}
+
+p {
+    color: rgb(254, 171, 15);
+}
+
+.faq-accordian .card {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1.5rem;
+    margin-left: 105px;
+}
+
+.faq-accordian .card .card-header {
+    background-color: #cccccc;
+    padding: 0;
+    border-bottom-color: #ebebeb;
+    width: 500px;
+    text-align: right;
+}
+.faq-accordian .card .card-header h6 {
+    cursor: pointer;
+    padding: 1.75rem 2rem;
+    color: rgb(152, 109, 29);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+

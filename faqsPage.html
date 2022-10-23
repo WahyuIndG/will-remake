@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tagss for new branch -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./landing.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <title>FAQs</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="faqs.css">
+  </head>
+  <body>
+    
+    <div style="position: relative;">
+    <!-- ==== HEADER ==== -->
+    <nav class="navbar navbar-expand-lg netflix-navbar netflix-padding-left netflix-padding-right">
+      <div class="container-fluid">
+        <div class="netflix-row"> 
+          <!-- LEFT HEADER -->
+          <div class="left d-flex align-items-center">
+
+            <!-- LOGO -->
+            <a class="navbar-brand" href="#">
+              <img src="./images/logo3.png" style="width: 150px;" alt="">
+            </a>
+
+            <!-- MENU OPTION BAR -->
+            <div  class="netflix-nav">
+                <section>
+                    <a href="landing.html"><button>Home</button></a>
+                    <a href="faqsPage.html"><button>FAQs</button></a>
+                    <!-- <a href="#contact"><button>Contact</button></a> -->
+                </section>
+            </div>
+
+            <!-- === DROPDOWN === (dropdown, dropdown-toggle, id & aria-labelledby)--> 
+            <!-- <div class="netflix-dropdown-box dropdown">
+                <button class="netflix-dropdown dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#trending">Trending</a></li>
+                <li><a class="dropdown-item" href="#horor">Horor</a></li>
+                <li><a class="dropdown-item" href="#family">Family</a></li>
+                <li><a class="dropdown-item" href="#comedy">Comedy</a></li>
+                <li><a class="dropdown-item" href="#action">Action</a></li>
+                </ul>
+            </div> -->
+            </div>
+
+            <!-- RIGHT HEADER -->
+            <div class="right d-flex align-items-center">
+            <i class="bi bi-search"></i>
+            <i class="bi bi-bell-fill"></i>
+            <section class="netflix-profile">
+              <i class="bi bi-person-circle"></i>
+            </section>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /header -->
+
+    <div class="faq_area section_padding_130" id="faq">
+        <div class="container">
+            <div class="row justify-content-center" >
+                <div class="col-12 col-sm-8 col-lg-6">
+                    <!-- HEAD -->
+                    <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <h3 style="margin-bottom: 20px;"> Frequently Asked Questions</h3>
+                        <p style="margin-bottom: 50px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nam eligendi magni doloribus incidunt totam voluptatum fugiat quisquam delectus dolore</p>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- FAQ Area-->
+                <div class="col-12 col-sm-10 col-lg-8">
+                    <div class="accordion faq-accordian" id="faqAccordion">
+
+                        <div class="card border-0 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingOne">
+                                <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">How can I install this app?</h6>
+                            </div>
+                        </div>
+
+                        <div class="card border-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingTwo">
+                                <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo ">The apps isn't installing?</h6>
+                            </div>
+                        </div>
+
+                        <div class="card border-0 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThree">
+                                <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Contact form isn't working?</h6>
+                            </div>
+                        </div>
+
+                        <div class="card border-0 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThree">
+                                <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Contact form isn't working?</h6>
+                            </div>
+                        </div>
+
+                        <div class="card border-0 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThree">
+                                <h6 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Contact form isn't working?</h6>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+  </body>
+</html>
